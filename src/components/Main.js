@@ -6,7 +6,7 @@ const Main = () => {
 
   const params = {
     zipcode: 63049,
-    APIkey: '76krRGzgfV0mNbYS8cBdWUSFPqzCiSlf',
+    APIkey: 'CG5TfNJuuDEWGx8L8WydhBGr1KHSIhGb',
     locationKey: ''
   };
   
