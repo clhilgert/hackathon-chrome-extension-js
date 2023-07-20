@@ -3,10 +3,10 @@ import React from 'react'
 const Day = (props) => {
   return (
     <div className='day-container'>
-      <p>{props.date}</p>
-      <p>Min: {props.min}</p>
-      <p>Max: {props.max}</p>
-      <p>Rain: {props.rain ? 'Yes' : 'No'}</p>
+      <p className='date'>{props.date}</p>
+      <p className='max'>{props.max}°</p>
+      <p className='min'>{props.min}°</p>
+      <p className='rain'>{props.rain ? '☀️' : '🌧️'}</p>
     </div>
   );
 };
